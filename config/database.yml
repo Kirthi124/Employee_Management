@@ -14,3 +14,10 @@ test:
   password: root
   host: 127.0.0.1
   port: 3306
+adapter: mysql2
+  encoding: utf8
+  database: emp_test
+  username: root
+  password: root
+  host: 127.0.0.1
+  port: 3306
