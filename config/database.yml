@@ -15,20 +15,13 @@ test:
   host: 127.0.0.1
   port: 3306
 production:
-<<<<<<< HEAD
 database: emp_prod
-adapter: postgrel
-=======
+adapter: postgresql
   database: emp_prod
   adapter: postgresql
->>>>>>> 3e6206eb10b2ce79eed57d1c65a1c6acc5718706
   encoding: unicode
   username: postgres
   password: postgres
   host: localhost
   port: 5432
-<<<<<<< HEAD
 pool: 100
-=======
-  pool: 100
->>>>>>> 3e6206eb10b2ce79eed57d1c65a1c6acc5718706
